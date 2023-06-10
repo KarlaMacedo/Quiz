@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Formato de Fondo*/
+html {
+  background-image: url("laboratoria.png") ; /* Fondo conimagen */
+  background-color: #fbe424;
+  opacity: 0.8; /* hacer translucido el fondo */
+  background-size: coveras; /* que la imagen del fondo cubra toda la página */
+}
+
+/* Formato del Titulo del Quizz */
+h2{
+  font-size: 2cm; /* Tamañotexto */
+  color: #ff009e; 
+  font-family: Paloseco; /* fuente de la letra */
+
+}
+
+/* FORMATO DEL TEXTO ENTRADA NOMBRE */
+.enterUserName {
+	font-family: fantasy; /* fuente de la letra */
+	color: #06040c;
+	font-size: large;
+}
+
+/* FORMATO MENSAJE BIENVENIDA */
+h3 {
+    font-size: 2em; /* Tamañotexto */
+	color: #ff009e;
+}
+
+/*FORMATO DEL TEXTO DE PREGUNTAS*/
+.questionText {
+  font-family: fantasy; /* fuente de la letra */
+  color: black;
+  font-size:large; /* Tamañotexto */
+}
+
+/* FORMATO DEL TEXTO DE LAS OPCIONES DE LAS PREGUNTAS */
+.optionText {
+	font-family: serif;
+	color: black;
+	font-size: large;
+}
+
+/*CAMBIA DE COLOR OPCIONES CUANDO TE POSICIONAS ENCIMA DE ELLLAS*/
+/* :hover SIRVE PARA QUE HAGA ALGO CUANDO TE POCISIONAS ENCIMA SIN DAR CLICK*/
+.optionsText:hover {
+  color: #ff009e;
+}
+
+/*FORMATO DE BOTON PARA ENVIAR RESPUESTAS*/
+button {
+  font-family: sans-serif;
+  background-color: #56f89a;
+  min-height: 55px; /* alto del boton */
+  min-width: 100px; /* ancho del boton */
+  color: #black; /* Color del texto */
+  border: 5px solid #black; /* Grosor del borde, estilo de línea y color */
+  border-radius: 18px; /* Añadir esquinas curvadas */
+  text-align: center; /*Texto centrado*/
+  font-size: 13px; /*tamaño del texto del boton*/
+  box-shadow: 0 1px 1px rgba(0,0,0,1); /*sombreado leve 
+ en la parte baja del borde 3d*/
+   
+}
+
+/*SOMBRA BOTON CUANDO TE POSICIONAS ENCIMA función obtenida de una pagina*/
+/* :hover SIRVE PARA QUE HAGA ALGO CUANDO TE POCISIONAS ENCIMA SIN DAR CLICK*/
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+/*FORMATO DEL TEXTO DEL PUNTAJE Y MENSAJES FINALES*/
+.results {
+  font-family: serif; /* fuente de la letra */
+  color: #ff009e; /*color del texto*/
+  font-size: 2em; /* Tamañotexto */
+}
